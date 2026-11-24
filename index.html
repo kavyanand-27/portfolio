@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kavyanand J | Computer Science Student &amp; Full Stack Developer</title>
+  <meta name="description" content="Personal Portfolio of Kavyanand J - Computer Science Student at KPR Institute of Engineering and Technology, Red Hat Certified System Administrator (RHCSA), and Full Stack Developer.">
+  <meta name="keywords" content="Kavyanand J, Portfolio, Computer Science, KPRIET, RHCSA, Red Hat, Full Stack Developer, Java, Python, Web Development">
+  <meta name="author" content="Kavyanand J">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%23050705%22/><text y=%2266%22 x=%2218%22 font-family=%22monospace%22 font-weight=%22bold%22 font-size=%2250%22 fill=%22%2300ff66%22>&gt;KJ</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Emerald Glows inspired by reference design -->
+  <div class="ambient-glow glow-top"></div>
+  <div class="ambient-glow glow-middle"></div>
+  <div class="ambient-glow glow-bottom"></div>
+
+  <!-- ================= TOP NAVIGATION ================= -->
+  <header class="header-nav" id="navbar">
+    <div class="nav-wrapper">
+      <!-- Monogram Logo -->
+      <a href="#home" class="nav-brand">
+        <span class="brand-icon">&gt;_</span>
+        <span class="brand-name">Kavyanand<span class="text-accent">.J</span></span>
+      </a>
+
+      <!-- Center Floating Pill Nav -->
+      <nav class="center-pill-nav" id="center-nav">
+        <a href="#home" class="pill-nav-link active">Home</a>
+        <a href="#about" class="pill-nav-link">About</a>
+        <a href="#skills" class="pill-nav-link">Skills</a>
+        <a href="#certifications" class="pill-nav-link">Certifications</a>
+        <a href="#projects" class="pill-nav-link">Projects</a>
+        <a href="#contact" class="pill-nav-link">Contact</a>
+      </nav>
+
+      <!-- Right Action CTA -->
+      <div class="nav-right-actions">
+        <a href="MY RESUME.pdf" download="Kavyanand_J_Resume.pdf" class="btn-green-pill">
+          <i class="fa-solid fa-file-arrow-down"></i> Resume
+        </a>
+        <button id="mobile-toggle" class="mobile-menu-btn" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        
+        <!-- Left Hero Column: Personal Developer Intro -->
+        <div class="hero-left">
+          <div class="hero-badge-pill">
+            <span class="pulse-indicator"></span>
+            <span>Seeking Summer Internships &bull; KPRIET 2024–2028</span>
+          </div>
+
+          <h1 class="hero-main-title">
+            Hi, I'm <br>
+            <span class="name-gradient">Kavyanand J</span> <br>
+            <span class="hero-role-title">Full Stack Developer &amp; RHCSA Certified</span>
+          </h1>
+
+          <p class="hero-subtext">
+            Computer Science undergraduate at <strong>KPR Institute of Engineering and Technology</strong>.
+            Passionate about building scalable web applications and managing robust Red Hat Enterprise Linux systems.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn-primary-action">
+              <span>Explore Projects</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn-secondary-action">
+              <span>Get In Touch</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Credential Badges Row -->
+          <div class="hero-proof-row">
+            <div class="avatar-stack">
+              <span class="avatar-circle av-rh" title="Red Hat Certified"><i class="fa-brands fa-redhat"></i></span>
+              <span class="avatar-circle av-amz" title="Amazon Coursera"><i class="fa-brands fa-amazon"></i></span>
+              <span class="avatar-circle av-lnx" title="Linux SysAdmin"><i class="fa-brands fa-linux"></i></span>
+            </div>
+            <div class="proof-text-group">
+              <div class="proof-label">Verified Certifications</div>
+              <div class="proof-rating">
+                <span class="highlight-badge-text">RHCSA (Red Hat)</span> &bull; 
+                <span class="highlight-badge-text">Full Stack Web (Amazon)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Bento Grid: Personal Stats & Visuals -->
+        <div class="hero-right-mosaic">
+          
+          <!-- Bento Tile 1: RHCSA Global Credential -->
+          <div class="bento-tile stat-highlight-tile">
+            <div class="tile-icon-badge">
+              <i class="fa-brands fa-redhat"></i>
+            </div>
+            <div class="tile-number">RHCSA</div>
+            <div class="tile-sub">Red Hat Certified System Administrator</div>
+            <div class="tile-desc">RHEL 9, Storage, Security &amp; Shell Automation</div>
+          </div>
+
+          <!-- Bento Tile 2: Developer Workspace Avatar Card -->
+          <div class="bento-tile dev-photo-tile">
+            <div class="dev-img-container">
+              <div class="dev-avatar-graphic">
+                <div class="avatar-ambient-glow"></div>
+                <div class="dev-monogram">KJ</div>
+                <div class="dev-status-pill">
+                  <span class="mini-green-dot"></span> B.E. Computer Science
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bento Tile 3: Glowing Wireframe / Code Quality Tile -->
+          <div class="bento-tile wireframe-tile">
+            <div class="wireframe-graphic">
+              <!-- Glowing Emerald Geometric Wireframe SVG inspired by reference -->
+              <svg viewBox="0 0 160 160" class="neon-wireframe-svg">
+                <defs>
+                  <linearGradient id="neonGreenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00ff66" />
+                    <stop offset="50%" stop-color="#10b981" />
+                    <stop offset="100%" stop-color="#059669" />
+                  </linearGradient>
+                  <filter id="wireGlow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feGaussianBlur stdDeviation="3" result="blur" />
+                    <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                  </filter>
+                </defs>
+                <polygon points="80,15 140,55 80,95 20,55" fill="none" stroke="url(#neonGreenGrad)" stroke-width="2.2" filter="url(#wireGlow)" />
+                <polygon points="80,95 140,55 125,125 80,150" fill="rgba(16, 185, 129, 0.08)" stroke="url(#neonGreenGrad)" stroke-width="2.2" filter="url(#wireGlow)" />
+                <polygon points="80,95 20,55 35,125 80,150" fill="rgba(0, 255, 102, 0.08)" stroke="url(#neonGreenGrad)" stroke-width="2.2" filter="url(#wireGlow)" />
+                <line x1="80" y1="15" x2="80" y2="150" stroke="#00ff66" stroke-width="2" stroke-dasharray="4,4" opacity="0.6" />
+                <line x1="20" y1="55" x2="125" y2="125" stroke="#10b981" stroke-width="1.6" opacity="0.4" />
+                <line x1="140" y1="55" x2="35" y2="125" stroke="#10b981" stroke-width="1.6" opacity="0.4" />
+              </svg>
+            </div>
+            <div class="wireframe-label">Problem Solving &amp; Logic</div>
+          </div>
+
+          <!-- Bento Tile 4: Graduation & College Tile -->
+          <div class="bento-tile experience-tile">
+            <div class="tile-large-stat">2028</div>
+            <div class="tile-stat-caption">Batch 2024 – 2028</div>
+            <div class="tile-stat-sub">KPR Institute of Eng. &amp; Tech</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= TECH STACK MARQUEE STRIP ================= -->
+    <section class="brands-marquee-section">
+      <div class="container brands-flex">
+        <div class="brand-item">
+          <i class="fa-brands fa-java text-accent"></i>
+          <span>JAVA</span>
+        </div>
+        <div class="brand-item">
+          <i class="fa-brands fa-python text-accent"></i>
+          <span>PYTHON</span>
+        </div>
+        <div class="brand-item">
+          <i class="fa-brands fa-js text-accent"></i>
+          <span>JAVASCRIPT</span>
+        </div>
+        <div class="brand-item">
+          <i class="fa-brands fa-html5 text-accent"></i>
+          <span>HTML5 / CSS3</span>
+        </div>
+        <div class="brand-item">
+          <i class="fa-brands fa-linux text-accent"></i>
+          <span>LINUX / RHEL</span>
+        </div>
+        <div class="brand-item">
+          <i class="fa-brands fa-git-alt text-accent"></i>
+          <span>GIT &amp; GITHUB</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= METRICS STATS BAR ================= -->
+    <section class="section metrics-section">
+      <div class="container metrics-container">
+        <div class="metrics-left-heading">
+          <h2>Transforming Code <br>Into Real Solutions</h2>
+        </div>
+        <div class="metrics-right-grid">
+          <div class="metric-item">
+            <div class="metric-val">2+</div>
+            <div class="metric-lbl">Industry Certifications (RHCSA, Amazon)</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-val">100%</div>
+            <div class="metric-lbl">Committed to Continuous Learning</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-val">4 Yrs</div>
+            <div class="metric-lbl">B.E. Computer Science Degree</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS & CAPABILITIES BENTO ================= -->
+    <section class="section features-section" id="skills">
+      <div class="container">
+        
+        <div class="features-header">
+          <span class="section-tag-label">Technical Skills</span>
+          <h2 class="features-title">Technical Capabilities &amp; <br>Core Proficiencies</h2>
+          <p class="features-subtitle">
+            Blending frontend and backend web engineering with certified Linux system administration and core computer science fundamentals.
+          </p>
+        </div>
+
+        <div class="features-bento-grid">
+          
+          <!-- Left 3 Vertical Cards -->
+          <div class="left-features-column">
+            
+            <!-- Skill 1: Full Stack Web -->
+            <div class="feature-card">
+              <div class="feat-icon-btn">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="feat-content">
+                <h3>Full Stack Web Development</h3>
+                <p>Developing responsive, clean web applications with HTML5, CSS3, modern JavaScript (ES6+), and backend integration.</p>
+                <div class="mini-tag-list">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>JavaScript</span>
+                  <span>Responsive Design</span>
+                  <span>REST Integration</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 2: Linux & Systems -->
+            <div class="feature-card">
+              <div class="feat-icon-btn">
+                <i class="fa-brands fa-redhat"></i>
+              </div>
+              <div class="feat-content">
+                <h3>Linux Systems &amp; Administration (RHCSA)</h3>
+                <p>Hands-on proficiency in Red Hat Enterprise Linux: file systems &amp; LVM, security hardening, user management, systemd, and bash scripting.</p>
+                <div class="mini-tag-list">
+                  <span>RHCSA</span>
+                  <span>RHEL 9</span>
+                  <span>LVM Storage</span>
+                  <span>SELinux</span>
+                  <span>Systemd</span>
+                  <span>Bash</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 3: Core CS & Programming -->
+            <div class="feature-card">
+              <div class="feat-icon-btn">
+                <i class="fa-solid fa-layer-group"></i>
+              </div>
+              <div class="feat-content">
+                <h3>Programming &amp; Core Computer Science</h3>
+                <p>Strong foundations in Object-Oriented Programming (Java), scripting (Python), Data Structures, Digital Logic, and Automata Theory.</p>
+                <div class="mini-tag-list">
+                  <span>Java</span>
+                  <span>Python</span>
+                  <span>C (Basic)</span>
+                  <span>Data Structures</span>
+                  <span>Automata</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Spotlight Card (Tools & Philosophy) -->
+          <div class="right-spotlight-card">
+            <div class="spotlight-graphic-wrap">
+              <svg viewBox="0 0 200 200" class="green-swirl-svg">
+                <defs>
+                  <radialGradient id="swirlGrad" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#00ff66" />
+                    <stop offset="60%" stop-color="#059669" />
+                    <stop offset="100%" stop-color="#022c22" />
+                  </radialGradient>
+                  <filter id="swirlBlur">
+                    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00ff66" flood-opacity="0.3" />
+                  </filter>
+                </defs>
+                <circle cx="100" cy="100" r="70" fill="url(#swirlGrad)" filter="url(#swirlBlur)" opacity="0.85" />
+                <path d="M 100,30 Q 150,70 140,110 T 80,160 Q 50,130 60,90 Z" fill="rgba(0, 255, 102, 0.4)" />
+                <path d="M 100,50 Q 130,80 120,110 T 90,140" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.6" />
+              </svg>
+            </div>
+
+            <div class="spotlight-content">
+              <h3>Developer Tooling &amp; Workflow</h3>
+              <p>
+                Committed to writing readable, maintainable code utilizing <strong>Git &amp; GitHub</strong>, <strong>VS Code</strong>, <strong>Jupyter Notebook</strong>, and the Linux CLI.
+              </p>
+              <a href="#projects" class="btn-primary-action btn-sm">
+                <span>View Projects</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= CERTIFICATIONS SECTION ================= -->
+    <section class="section certs-section" id="certifications">
+      <div class="container">
+        
+        <div class="features-header">
+          <span class="section-tag-label">Credentials</span>
+          <h2 class="features-title">Industry Certifications</h2>
+          <p class="features-subtitle">
+            Demonstrated, verified industry competencies from Red Hat and Amazon.
+          </p>
+        </div>
+
+        <div class="certs-dual-grid">
+          
+          <!-- RHCSA Card -->
+          <div class="cert-bento-card redhat-bento">
+            <div class="cert-card-top">
+              <div class="cert-pill-badge redhat-badge">
+                <i class="fa-brands fa-redhat"></i> Global Credential
+              </div>
+              <span class="cert-status-tag"><i class="fa-solid fa-circle-check"></i> Certified</span>
+            </div>
+
+            <div class="cert-card-body">
+              <h3 class="cert-main-name">Red Hat Certified System Administrator (RHCSA)</h3>
+              <div class="cert-issuer">Issued by <strong>Red Hat</strong></div>
+              <p class="cert-description">
+                Validates critical hands-on skills in core Red Hat Enterprise Linux system administration, storage configuration, security controls (SELinux), network services, process management, and automation.
+              </p>
+
+              <div class="cert-skills-chips">
+                <span>RHEL 9</span>
+                <span>Storage / LVM</span>
+                <span>User Management</span>
+                <span>SELinux Security</span>
+                <span>Systemd Units</span>
+                <span>Shell Automation</span>
+              </div>
+            </div>
+
+            <div class="cert-card-bottom">
+              <span class="cert-meta-info"><i class="fa-solid fa-shield-halved"></i> Red Hat Credential</span>
+              <a href="MY RESUME.pdf" target="_blank" class="cert-resume-link">
+                View on Resume <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Amazon / Coursera Card -->
+          <div class="cert-bento-card amazon-bento">
+            <div class="cert-card-top">
+              <div class="cert-pill-badge amazon-badge">
+                <i class="fa-brands fa-amazon"></i> Professional Course
+              </div>
+              <span class="cert-status-tag"><i class="fa-solid fa-circle-check"></i> Completed</span>
+            </div>
+
+            <div class="cert-card-body">
+              <h3 class="cert-main-name">Full Stack Web Development</h3>
+              <div class="cert-issuer">Authorized by <strong>Amazon</strong> &bull; Completed via <strong>Coursera</strong></div>
+              <p class="cert-description">
+                Comprehensive training covering frontend UI principles, responsive layout design, client-server web architectures, and REST API development.
+              </p>
+
+              <div class="cert-skills-chips">
+                <span>HTML5 / CSS3</span>
+                <span>JavaScript ES6+</span>
+                <span>Full Stack Flow</span>
+                <span>REST APIs</span>
+                <span>Responsive Web</span>
+              </div>
+            </div>
+
+            <div class="cert-card-bottom">
+              <span class="cert-meta-info"><i class="fa-solid fa-graduation-cap"></i> Coursera Verified</span>
+              <a href="MY RESUME.pdf" target="_blank" class="cert-resume-link">
+                View on Resume <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= FEATURED PROJECTS & LIVE DEMO ================= -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <div class="section-tag-label">Portfolio Projects</div>
+          <div class="section-split-header">
+            <h2 class="section-h2">Featured Project &amp; Live Simulation</h2>
+            <p class="section-sub-desc">
+              Experience the core project from my resume with a live in-browser comparison simulator.
+            </p>
+          </div>
+        </div>
+
+        <!-- Featured Project: Web-Based Plagiarism Checker -->
+        <div class="featured-project-container">
+          <div class="proj-badge-row">
+            <span class="feat-pill"><i class="fa-solid fa-star"></i> Featured Resume Project</span>
+            <div class="proj-tech-chips">
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>HTML5 / CSS3</span>
+              <span>Algorithms / NLP</span>
+            </div>
+          </div>
+
+          <div class="proj-main-info">
+            <h3 class="proj-title">Web-Based Plagiarism Checker</h3>
+            <p class="proj-desc">
+              Developed a web application to detect plagiarism in text documents. 
+              Implemented text comparison algorithms to calculate similarity indices between documents and designed an intuitive user interface for uploading and analyzing text content.
+            </p>
+          </div>
+
+          <!-- Interactive Live In-Browser Demo -->
+          <div class="live-simulator-box" id="demo-checker">
+            <div class="sim-header">
+              <div class="sim-title">
+                <i class="fa-solid fa-bolt" style="color:#00ff66;"></i>
+                <span>Live Interactive Simulator: Test Plagiarism Algorithm</span>
+              </div>
+              <button class="sim-load-btn" id="load-sample-btn">Load Sample Text</button>
+            </div>
+
+            <div class="sim-inputs-grid">
+              <div class="sim-input-col">
+                <label for="text-doc-a">Document A (Original Reference):</label>
+                <textarea id="text-doc-a" rows="4" placeholder="Type or paste original text here..."></textarea>
+              </div>
+              <div class="sim-input-col">
+                <label for="text-doc-b">Document B (Submitted Text):</label>
+                <textarea id="text-doc-b" rows="4" placeholder="Type or paste text to test against Document A..."></textarea>
+              </div>
+            </div>
+
+            <div class="sim-actions-row">
+              <button class="btn-green-pill" id="run-check-btn">
+                <i class="fa-solid fa-magnifying-glass-chart"></i> Run Plagiarism Analysis
+              </button>
+              <button class="btn-secondary-action" id="clear-demo-btn">
+                <span>Clear</span>
+              </button>
+            </div>
+
+            <!-- Dynamic Result Area -->
+            <div class="sim-result-panel" id="demo-result" style="display: none;">
+              <div class="result-display-flex">
+                <div class="result-gauge" id="meter-circle">
+                  <span class="gauge-percent" id="meter-score">0%</span>
+                  <span class="gauge-caption">Similarity</span>
+                </div>
+                <div class="result-verdict">
+                  <h4 id="result-status-title">Similarity Assessment</h4>
+                  <p id="result-status-desc">Evaluation finished.</p>
+                  <div class="result-chips" id="token-stats"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Projects Grid -->
+        <div class="sub-projects-grid">
+          
+          <div class="sub-proj-card">
+            <div class="sub-proj-inner">
+              <div class="sub-proj-text">
+                <h4>Linux System Admin Automation Suite</h4>
+                <p>Shell scripts for automating RHEL system maintenance, backups, user management, and service health checks.</p>
+                <div class="sub-tags">
+                  <span>RHEL</span>
+                  <span>Bash</span>
+                  <span>Cron</span>
+                  <span>Linux</span>
+                </div>
+                <a href="https://github.com/kavyanand-27" target="_blank" rel="noopener noreferrer" class="link-arrow">
+                  <span>View on GitHub</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+              <div class="sub-proj-graphic">
+                <div class="icon-graphic-box">
+                  <i class="fa-brands fa-redhat"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-proj-card">
+            <div class="sub-proj-inner">
+              <div class="sub-proj-text">
+                <h4>Data Structures &amp; Algorithms Repository</h4>
+                <p>Core implementations of foundational data structures (Trees, Linked Lists, Sorting algorithms) in Java and Python.</p>
+                <div class="sub-tags">
+                  <span>Java</span>
+                  <span>Python</span>
+                  <span>Algorithms</span>
+                  <span>OOP</span>
+                </div>
+                <a href="https://github.com/kavyanand-27" target="_blank" rel="noopener noreferrer" class="link-arrow">
+                  <span>View on GitHub</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+              <div class="sub-proj-graphic">
+                <svg viewBox="0 0 160 80" class="freq-wave-svg">
+                  <path d="M 10,40 Q 30,10 50,40 T 90,40 T 130,40 T 150,40" stroke="#00ff66" stroke-width="2.5" fill="none" opacity="0.9" />
+                  <path d="M 10,40 Q 30,65 50,40 T 90,40 T 130,40 T 150,40" stroke="#10b981" stroke-width="2" fill="none" opacity="0.6" />
+                  <circle cx="50" cy="40" r="4" fill="#00ff66" />
+                  <circle cx="90" cy="40" r="4" fill="#00ff66" />
+                  <circle cx="130" cy="40" r="4" fill="#00ff66" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= ABOUT & EDUCATION SECTION ================= -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tag-label">Biography</span>
+          <div class="section-split-header">
+            <h2 class="section-h2">About &amp; Education</h2>
+            <p class="section-sub-desc">
+              Academic background, coursework, and personal drive.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-mosaic-grid">
+          
+          <!-- Bio Narrative Card -->
+          <div class="about-narrative-card">
+            <h3>Professional Summary</h3>
+            <p>
+              Motivated Computer Science student at <strong>KPR Institute of Engineering and Technology</strong> seeking internship opportunities to apply programming and problem-solving skills.
+            </p>
+            <p>
+              Interested in <strong>Full Stack Web Development</strong> and <strong>software development</strong>, eager to gain practical industry experience while contributing to real-world software solutions.
+            </p>
+
+            <div class="quick-facts-row">
+              <div class="q-fact">
+                <span class="q-label">Location</span>
+                <span class="q-val">Avinashi, Tamil Nadu, India</span>
+              </div>
+              <div class="q-fact">
+                <span class="q-label">Degree</span>
+                <span class="q-val">B.E. CSE</span>
+              </div>
+              <div class="q-fact">
+                <span class="q-label">Batch</span>
+                <span class="q-val">2024 – 2028</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academic Institution Card -->
+          <div class="edu-institution-card">
+            <div class="edu-badge"><i class="fa-solid fa-graduation-cap"></i> 2024 – 2028</div>
+            <h4>KPR Institute of Engineering and Technology</h4>
+            <p class="degree-highlight">B.E. Computer Science and Engineering</p>
+            
+            <div class="coursework-box">
+              <span class="cw-title">Relevant Coursework:</span>
+              <div class="cw-grid-pills">
+                <span>Java Programming</span>
+                <span>Python Programming</span>
+                <span>Data Structures</span>
+                <span>Digital Logic</span>
+                <span>Automata Theory</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="features-header">
+          <span class="section-tag-label">Get In Touch</span>
+          <h2 class="features-title">Let's Connect</h2>
+          <p class="features-subtitle">
+            Available for internship opportunities, project collaborations, and software roles.
+          </p>
+        </div>
+
+        <div class="contact-card-wrap">
+          
+          <!-- Direct Contact Details -->
+          <div class="contact-details-col">
+            
+            <div class="c-method-card">
+              <div class="c-method-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="c-method-info">
+                <span class="c-type">Email Address</span>
+                <a href="mailto:jkavyanand27@gmail.com" class="c-target">jkavyanand27@gmail.com</a>
+              </div>
+              <button class="c-copy-btn" data-copy="jkavyanand27@gmail.com" title="Copy Email">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="c-method-card">
+              <div class="c-method-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="c-method-info">
+                <span class="c-type">Phone Number</span>
+                <a href="tel:+916383650726" class="c-target">+91 6383650726</a>
+              </div>
+              <button class="c-copy-btn" data-copy="+916383650726" title="Copy Phone">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="c-method-card">
+              <div class="c-method-icon"><i class="fa-brands fa-linkedin"></i></div>
+              <div class="c-method-info">
+                <span class="c-type">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/kavyanand-j-36b8a5315/" target="_blank" rel="noopener noreferrer" class="c-target">linkedin.com/in/kavyanand-j</a>
+              </div>
+            </div>
+
+            <div class="c-method-card">
+              <div class="c-method-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="c-method-info">
+                <span class="c-type">GitHub</span>
+                <a href="https://github.com/kavyanand-27" target="_blank" rel="noopener noreferrer" class="c-target">github.com/kavyanand-27</a>
+              </div>
+            </div>
+
+            <div class="c-method-card">
+              <div class="c-method-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="c-method-info">
+                <span class="c-type">Address</span>
+                <span class="c-target">4/41 Extension Street, Kaikattipudur, Avinashi - 641654</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Quick Message Form -->
+          <div class="contact-form-col">
+            <form id="contact-form" class="clean-dark-form">
+              <h3>Send a Message</h3>
+              <p>Direct communication routed to Kavyanand's inbox.</p>
+
+              <div class="form-row">
+                <input type="text" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-row">
+                <input type="email" id="email" placeholder="Your Email Address" required>
+              </div>
+              <div class="form-row">
+                <input type="text" id="subject" placeholder="Subject (e.g. Internship Opportunity)" required>
+              </div>
+              <div class="form-row">
+                <textarea id="message" rows="4" placeholder="Your message..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-green-pill btn-full">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-flex">
+      <div class="footer-left">
+        <a href="#home" class="nav-brand">
+          <span class="brand-icon">&gt;_</span>
+          <span class="brand-name">Kavyanand<span class="text-accent">.J</span></span>
+        </a>
+        <p class="footer-desc">Computer Science Student &bull; RHCSA Certified &bull; Full Stack Developer</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-copy">
+        <p>&copy; <span id="year">2026</span> Kavyanand J. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
